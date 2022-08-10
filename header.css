@@ -3,6 +3,7 @@ header {
     align-items: center;
     justify-content: space-between;
     color: white;
+    z-index: 1;
 }
 
 header > img {
@@ -10,7 +11,7 @@ header > img {
     display: none;
 }
 
-header > h3 {
+header > a > h3 {
     font-size: 28px;
     cursor: pointer;
 }
@@ -34,7 +35,12 @@ header > ul {
     font-size: 18px;
 }
 
-@media only screen and (max-width: 950px) {
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 960px) {
     header {
         position: fixed;
         top: 0;

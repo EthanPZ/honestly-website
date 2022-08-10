@@ -22,3 +22,15 @@ p {
 ::-webkit-scrollbar {
     display: none;
 }
+
+.main {
+    padding: 0 10%;
+}
+
+footer {
+    text-align: center;
+    color: rgb(161, 161, 161);
+    padding: 10px;
+    background-color: #101010;
+    opacity: 0.8;
+}
