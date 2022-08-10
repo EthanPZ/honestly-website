@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --p-color: rgb(129, 129, 129);
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+p {
+    color: var(--p-color);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
