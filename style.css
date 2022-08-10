@@ -1,5 +1,5 @@
-@import url(/header.css);
-@import url(/main.css);
+@import url(header.css);
+@import url(main.css);
 
 :root {
     --body-color: linear-gradient(to right, #414141, #000000);
