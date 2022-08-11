@@ -9,6 +9,11 @@
 body {
     margin: 0;
     font-family: 'Inter', sans-serif;
+    user-select: none;
+}
+
+a {
+    color: inherit;
 }
 
 button {
