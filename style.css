@@ -64,7 +64,7 @@ body {
     background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: text-bg-move 5s linear infinite;
+    animation: text-bg-move 4s linear infinite;
     background-size: 150%;
 }
 
