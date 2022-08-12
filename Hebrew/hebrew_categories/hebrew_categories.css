@@ -1,0 +1,55 @@
+@import url(../../main.css);
+@import url(../../header.css);
+
+body {
+    background: linear-gradient(to left, #434343, #000000);
+}
+
+.wrapdivs {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 200px);
+    gap: 17px;
+}
+
+.wrapdivs > div {
+    background-color: #434343;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, opacity 0.3s, background-position 0.3s;
+}
+
+.wrapdivs > div:hover {
+    background-color: #363636;
+    /* background-image: linear-gradient(to left, #12c2e9, #c471ed, #f64f59); */
+    background-size: 150%;
+    background-position: right;
+    backdrop-filter: blur(10px);
+}
+
+img {
+    width: 200px;
+}
+
+@media only screen and (max-width: 960px) {
+    .wrapdivs {
+        grid-template-columns: repeat(2, 200px);
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .wrapdivs {
+        padding-top: 35px;
+        padding-bottom: 20px;
+        position: static;
+        transform: none;
+        grid-template-columns: repeat(auto-fill, 200px);
+    }
+}
